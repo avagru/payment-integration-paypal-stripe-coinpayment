@@ -1,0 +1,122 @@
+[
+    {
+        "name": "coinpaymentsnet/coinpayments-php",
+        "version": "v1.4",
+        "version_normalized": "1.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/CoinPaymentsNet/coinpayments-php.git",
+            "reference": "e7e9f8820c2179f49605aa861d7c7bd485b3c88c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/CoinPaymentsNet/coinpayments-php/zipball/e7e9f8820c2179f49605aa861d7c7bd485b3c88c",
+            "reference": "e7e9f8820c2179f49605aa861d7c7bd485b3c88c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "time": "2018-09-15T00:00:00+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "/src"
+            ],
+            "exclude-from-classmap": [
+                "/tests"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Cole",
+                "email": "cole@coinpayments.net",
+                "homepage": "https://www.coinpayments.net",
+                "role": "Developer"
+            }
+        ],
+        "description": "A PHP wrapper for the CoinPayments.net v1 API.",
+        "homepage": "https://www.coinpayments.net/apidoc-intro",
+        "keywords": [
+            "api",
+            "bitcoin",
+            "btc",
+            "coinpayments",
+            "crypto",
+            "cryptocurrency",
+            "currency",
+            "ethereum",
+            "litecoin",
+            "merchant",
+            "payment gateway",
+            "payment method",
+            "payment processor",
+            "paypal",
+            "php"
+        ]
+    },
+    {
+        "name": "stripe/stripe-php",
+        "version": "v7.22.0",
+        "version_normalized": "7.22.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/stripe/stripe-php.git",
+            "reference": "44021812c0c368ff37259f7b18155a2b3d4c15b3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/stripe/stripe-php/zipball/44021812c0c368ff37259f7b18155a2b3d4c15b3",
+            "reference": "44021812c0c368ff37259f7b18155a2b3d4c15b3",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.6.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^2.15",
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "^3.3",
+            "symfony/process": "~3.4"
+        },
+        "time": "2020-01-31T18:06:21+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Stripe\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Stripe and contributors",
+                "homepage": "https://github.com/stripe/stripe-php/contributors"
+            }
+        ],
+        "description": "Stripe PHP Library",
+        "homepage": "https://stripe.com/",
+        "keywords": [
+            "api",
+            "payment processing",
+            "stripe"
+        ]
+    }
+]

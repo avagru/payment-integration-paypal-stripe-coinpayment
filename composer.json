@@ -1,0 +1,6 @@
+{
+    "require": {
+        "stripe/stripe-php": "^7.22",
+        "coinpaymentsnet/coinpayments-php": "^1.4"
+    }
+}
